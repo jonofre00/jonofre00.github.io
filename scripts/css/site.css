@@ -21,9 +21,21 @@
 
 .main {
     margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
 }
 
-@media screen and (max-height: 450px){
+#personalPhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+}
+
+@media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
