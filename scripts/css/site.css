@@ -28,6 +28,16 @@
     min-height: 100vh;
 }
 
+.mainBody {
+    display: flex;
+    margin-left: 200px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    margin-top: 30px;
+    margin-left: -50px;
+}
+
 #personalPhoto {
     border-radius: 50%;
     display: block;
@@ -50,4 +60,5 @@
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    .mainBody {left: 50%;}
 }
