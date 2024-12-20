@@ -38,6 +38,11 @@
     margin-left: -50px;
 }
 
+.iconStyle {
+    width: 2.5rem;
+    margin-right: 1rem;
+}
+
 #personalPhoto {
     border-radius: 50%;
     display: block;
